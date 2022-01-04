@@ -33,5 +33,26 @@ echo(options: { value: string; }) => Promise<{ value: string; }>
 **Returns:** <code>Promise&lt;{ value: string; }&gt;</code>
 
 --------------------
+  
+* [`getContacts(...)`](#getContacts)
+
+</docgen-index>
+
+<docgen-api>
+<!--Update the source file JSDoc comments and rerun docgen to update the docs below-->
+
+### getContacts(...)
+
+```typescript
+getContacts(filter: string): Promise<{results: any[]}>;
+```
+
+| Param         | Type                            |
+| ------------- | ------------------------------- |
+| **`filter`** | <code>{ value: string; }</code> |
+
+**Returns:** <code>Promise&lt;{ value: string; }&gt;</code>
+
+--------------------
 
 </docgen-api>
